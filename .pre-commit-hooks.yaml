@@ -1,0 +1,7 @@
+- id: shfmt
+  name: shfmt
+  description: Format shell source code with shfmt
+  entry: shfmt
+  language: python
+  types: [shell]
+  args: [-w, -s]
